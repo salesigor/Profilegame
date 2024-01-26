@@ -20,6 +20,10 @@ body {
     margin: auto;
     display: flex; /* Utilizamos flexbox para alinhar as divs lado a lado */
 }
+#card-container {
+    text-align: center;
+    color: white;
+}
 #generate-btn {
     display: flex; /* Alinhar elementos lado a lado */
     align-items: center; /* Centralizar verticalmente os elementos */
@@ -42,10 +46,6 @@ body {
 #generate-btn:hover {
     background-color: rgb(20, 150, 60); /* Cor mais escura no hover */
 }
-.card-container {
-    text-align: center; /* Center the card */
-}
-/* Remove the margin-top from the card */
 .card {
     width: 300px;
     height: 200px;

@@ -31,14 +31,14 @@ generateBtn.addEventListener('click', () => {
     ];
 
     const topic = topics[Math.floor(Math.random() * topics.length)];
-    const card = document.createElement('div');
-    card.classList.add('card', topic.color);
+    const card = document.getElementById('card');
+    
     card.innerHTML = `
         <div class="topic">${topic.name}</div>
         <div class="content">${topic.content}</div>
     `;
-    cardContainer.innerHTML = '';
-    cardContainer.appendChild(card);
+
+    card.className = `card ${topic.color}`;
 });
 
 // Generate a card on page load
