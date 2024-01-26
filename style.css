@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-size: cover;
 }
 
 .card-header {
@@ -42,7 +43,6 @@ body {
 .card-content {
     margin-top: 20px; /* Adicione margem acima do conteúdo */
     text-align: center;
-    color: black;
 }
 
 .film {
