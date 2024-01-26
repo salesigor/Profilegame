@@ -1,6 +1,7 @@
 const generateBtn = document.getElementById('generate-btn');
 const card = document.getElementById('card');
 const cardTitle = document.querySelector('.card .card-header .topic-title');
+const cardName = document.querySelector('.card .card-header .topic-name');
 const cardContent = document.querySelector('.card .card-content');
 
 async function fetchCartas(tipo) {
@@ -16,6 +17,10 @@ async function gerarNovaCarta() {
 
     cardTitle.innerHTML = `
         <div class="topic-title ${tipo.toLowerCase()}">${tipo}</div>
+    `;
+
+    cardName.innerHTML = `
+        <div class="topic-name" style="color: ${name.color}">${name}</div>
     `;
 
     cardContent.innerHTML = content.map((tip, index) => `
