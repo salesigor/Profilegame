@@ -20,7 +20,7 @@ async function gerarNovaCarta() {
     `;
 
     cardName.innerHTML = `
-        <div class="topic-name" style="color: ${name.color}">${name}</div>
+        <div class="topic-name">${name}</div>
     `;
 
     cardContent.innerHTML = content.map((tip, index) => `
