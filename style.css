@@ -7,53 +7,44 @@ body {
 #card-container {
     text-align: center;
     color: white;
-    margin-top: 20px;
-}
-
-#card {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    width: 80%;
-    max-width: 600px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
-    display: table;
-    margin: auto;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-#generate-btn {
-    display: flex;
-    align-items: center;
-    gap: 2px;
-    cursor: pointer;
-    padding: 10px;
-    background-color: rgb(19, 66, 33);
-    color: whitesmoke;
-    border-color: whitesmoke;
-    width: fit-content;
-    border-radius: 4%;
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.356);
-    transition: background-color 0.3s;
-    margin-top: 20px;
-}
-
-#generate-btn:hover {
-    background-color: rgb(20, 150, 60);
 }
 
 .card {
-    width: 100%;
-    border-radius: 10px;
+    width: 300px;
+    height: 300px; /* Ajuste a altura conforme necessário */
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
 
-/* Adicionei classes específicas para cada tipo de carta */
+.card-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic-title,
+.topic-name {
+    margin: 0; /* Remover margem padrão */
+}
+
+.topic-title {
+    color: white;
+}
+
+.topic-name {
+    margin-top: 5px; /* Adicione margem entre o tipo e o nome */
+}
+
+.card-content {
+    margin-top: 20px; /* Adicione margem acima do conteúdo */
+    text-align: center;
+    color: black;
+}
+
 .film {
     background-image: linear-gradient(to bottom, rgb(64, 199, 75), rgb(1, 168, 37));
 }
@@ -72,18 +63,4 @@ body {
 
 .place {
     background-image: linear-gradient(to bottom, rgb(199, 64, 120), rgb(168, 1, 126));
-}
-
-.topic-title {
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    color: white;
-}
-
-.tip {
-    font-size: 14px;
-    margin-bottom: 5px;
-    color: white;
 }

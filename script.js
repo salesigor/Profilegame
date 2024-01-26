@@ -96,7 +96,11 @@ function gerarNovaCarta() {
     const topic = topics[Math.floor(Math.random() * topics.length)];
 
     cardTitle.innerHTML = `
-        <div class="topic-title ${topic.type.toLowerCase()}" style="color: ${topic.color}">${topic.type} - ${topic.name}</div>
+        <div class="topic-title ${topic.type.toLowerCase()}">${topic.type}</div>
+    `;
+
+    cardName.innerHTML = `
+        <div class="topic-name" style="color: ${topic.color}">${topic.name}</div>
     `;
 
     cardContent.innerHTML = topic.content.map((tip, index) => `
