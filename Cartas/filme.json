@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Piratas do Caribe",
+        "content": [
+            "Tem Johnny Depp como protagonista.",
+            "Fala sobre piratas e tesouros.",
+            "O personagem principal é Jack Sparrow.",
+            "Há uma maldição envolvendo o ouro.",
+            "A trilha sonora é marcante.",
+            "Possui várias sequências.",
+            "O mar é um cenário frequente.",
+            "Lançado no início dos anos 2000.",
+            "É baseado em uma atração da Disney.",
+            "Dirigido por Gore Verbinski."
+        ]
+    },
+    {
+        "name": "Inception",
+        "content": [
+            "Dirigido por Christopher Nolan.",
+            "Explora o conceito de sonhos.",
+            "Elenco estelar com Leonardo DiCaprio.",
+            "Cenas de ação espetaculares.",
+            "Ganhou 4 Oscars.",
+            "Mistura de ficção científica e ação.",
+            "Efeitos visuais impressionantes.",
+            "Enredo complexo e intrigante.",
+            "Recebeu aclamação da crítica.",
+            "Influência de filmes noir."
+        ]
+    },
+    {
+        "name": "Matrix",
+        "content": [
+            "Lançado em 1999.",
+            "Dirigido pelos irmãos Wachowski.",
+            "Explora realidade virtual e inteligência artificial.",
+            "Famosa cena de 'bullet time'.",
+            "Influenciou a cultura pop.",
+            "Trilogia completa com Reloaded e Revolutions.",
+            "Neo, Morpheus e Trinity são personagens principais.",
+            "Filme de ficção científica revolucionário.",
+            "Ganhou 4 Oscars.",
+            "Abordagem filosófica e existencial."
+        ]
+    },
+    {
+        "name": "The Shawshank Redemption",
+        "content": [
+            "Baseado no conto de Stephen King.",
+            "Dirigido por Frank Darabont.",
+            "Andy Dufresne é o protagonista.",
+            "Condenado injustamente por assassinato.",
+            "Amizade com Red é central para a trama.",
+            "Considerado um dos melhores filmes de todos os tempos.",
+            "Aborda temas de esperança e redenção.",
+            "Cena da chuva é icônica.",
+            "Não obteve grande sucesso nas bilheteiras.",
+            "Alcançou status cult após lançamento em vídeo."
+        ]
+    }
+]

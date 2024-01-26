@@ -3,17 +3,17 @@ body {
     background-image: linear-gradient(to left, rgb(25, 25, 26), rgb(51, 51, 51));
     color: rgb(65, 55, 3);
 }
+
 #card-container {
     text-align: center;
     color: white;
-    margin-top: 20px; /* Adicionado para espaço entre o título e a carta */
+    margin-top: 20px;
 }
 
-#card {
+.card {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    width: 300px; /* Reduzido o tamanho para se adequar melhor ao conteúdo */
-    height: 200px;
+    width: 300px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
     background-image: linear-gradient(to bottom, rgb(64, 138, 199), rgb(1, 93, 168));
@@ -21,41 +21,47 @@ body {
     margin: auto;
 }
 
-#generate-btn {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    padding: 10px;
-    width: fit-content;
-    border-radius: 10%;
-    transition: background-color 0.3s;
-    margin-top: 10px; /* Adicionado para espaço entre a carta e o botão */
-}
-
-/*#generate-btn:hover {
-    background-color: #00a6ed;
-}*/
-
-.card {
-    width: 100%; /* Ajustado para ocupar 100% da largura da div */
-    height: 100%;
-    border-radius: 5px;
+.card-header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
-.topic {
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    color: white;
+.topic-title,
+.topic-name {
+    margin: 10px 0;
 }
 
-.content {
-    font-size: 14px;
+.card-content {
     text-align: center;
-    color: white;
+    padding: 10px; /* Adicionado para melhorar a apresentação do conteúdo */
+}
+
+.tip {
+    margin-bottom: 5px; /* Adicionado espaçamento entre as dicas */
+}
+
+/* Adicione suas classes de cores aqui para os diferentes tipos */
+.filme {
+    background-image: linear-gradient(to bottom, rgb(64, 199, 75), rgb(1, 168, 37));
+}
+
+.serie {
+    background-image: linear-gradient(to bottom, rgb(199, 64, 64), rgb(168, 1, 1));
+}
+
+.coisa {
+    background-image: linear-gradient(to bottom, rgb(64, 138, 199), rgb(1, 93, 168));
+}
+
+.pessoa {
+    background-image: linear-gradient(to bottom, rgb(243, 240, 61), rgb(236, 202, 7));
+}
+
+.musica {
+    background-image: linear-gradient(to bottom, rgb(199, 64, 120), rgb(168, 1, 126));
+}
+
+.lugar {
+    background-image: linear-gradient(to bottom, rgb(145, 64, 199), rgb(93, 1, 168));
 }

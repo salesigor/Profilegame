@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Stranger Things",
+        "content": [
+            "Passa-se na década de 80.",
+            "Envolvimento de ficção científica.",
+            "A cidade é Hawkins.",
+            "Há personagens com habilidades especiais.",
+            "Uma dimensão alternativa é central na trama.",
+            "Um grupo de crianças é protagonista.",
+            "O laboratório é um local importante.",
+            "Monstros conhecidos como Demogorgon.",
+            "A amizade é um tema chave.",
+            "Criação dos irmãos Duffer."
+        ]
+    },
+    {
+        "name": "Breaking Bad",
+        "content": [
+            "Um professor de química se envolve no tráfico de metanfetamina.",
+            "Transformação do protagonista ao longo da série.",
+            "Parceria com um ex-aluno.",
+            "Personagem icônico: Walter White.",
+            "Exploração de temas éticos e morais.",
+            "Presença marcante do cartel de drogas.",
+            "Suspense e reviravoltas constantes.",
+            "A série se passa em Albuquerque, Novo México.",
+            "A busca pelo poder é um elemento central.",
+            "Concluída em cinco temporadas."
+        ]
+    },
+    {
+        "name": "Game of Thrones",
+        "content": [
+            "Baseada na série de livros 'As Crônicas de Gelo e Fogo'.",
+            "Intrigas políticas e batalhas épicas.",
+            "Várias casas nobres disputam o Trono de Ferro.",
+            "Presença de dragões e criaturas místicas.",
+            "Personagens complexos e memoráveis.",
+            "Reviravoltas chocantes e mortes surpreendentes.",
+            "Exploração de temas como poder e vingança.",
+            "Cenários variados e bem construídos.",
+            "Transmitida pela HBO.",
+            "Concluída em oito temporadas."
+        ]
+    },
+    {
+        "name": "The Mandalorian",
+        "content": [
+            "Parte do universo de Star Wars.",
+            "Protagonizado por um caçador de recompensas mandaloriano.",
+            "Presença do adorável Baby Yoda.",
+            "Ação e aventura em uma galáxia distante.",
+            "Estilo faroeste com influências de samurai.",
+            "Recebeu aclamação por efeitos visuais.",
+            "Conexões com a mitologia de Star Wars.",
+            "Episódios curtos e envolventes.",
+            "Exploração do código de conduta mandaloriano.",
+            "Disponível no serviço de streaming Disney+."
+        ]
+    }
+]

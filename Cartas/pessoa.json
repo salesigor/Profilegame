@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Elon Musk",
+        "content": [
+            "Empresário e empreendedor sul-africano.",
+            "Fundador da SpaceX e Tesla, Inc.",
+            "Co-fundador do PayPal e Neuralink.",
+            "Visionário no desenvolvimento de tecnologias espaciais.",
+            "Defensor de energia sustentável e veículos elétricos.",
+            "Participou da criação da OpenAI.",
+            "Envolvimento em projetos de transporte de alta velocidade.",
+            "Papel importante na popularização dos carros elétricos.",
+            "Objetivo de colonizar Marte.",
+            "Presença ativa nas redes sociais e mídia."
+        ]
+    },
+    {
+        "name": "Emma Watson",
+        "content": [
+            "Atriz britânica.",
+            "Conhecida por seu papel como Hermione Granger em Harry Potter.",
+            "Ativista pelos direitos das mulheres.",
+            "Embaixadora da Boa Vontade da ONU Mulheres.",
+            "Graduada em Literatura Inglesa pela Brown University.",
+            "Participou de filmes após a saga Harry Potter.",
+            "Defende a igualdade de gênero e direitos humanos.",
+            "Engajada em questões sociais e ambientais.",
+            "Estilo de moda consciente e sustentável.",
+            "Mantém uma presença discreta nas redes sociais."
+        ]
+    },
+    {
+        "name": "Beyoncé",
+        "content": [
+            "Cantora, compositora e atriz americana.",
+            "Destacou-se como membro do Destiny's Child.",
+            "Carreira solo marcada por sucessos e inovação musical.",
+            "Várias vezes premiada, incluindo múltiplos Grammy Awards.",
+            "Ativista em questões raciais e sociais.",
+            "Empresária com várias linhas de produtos e marcas.",
+            "Influência significativa na cultura pop e na música.",
+            "Participação em filmes e produções audiovisuais.",
+            "Casada com o rapper Jay-Z e mãe de três filhos.",
+            "Presença forte nas redes sociais e mídia."
+        ]
+    },
+    {
+        "name": "Alan Turing",
+        "content": [
+            "Matemático, lógico e criptoanalista britânico.",
+            "Pioneiro na teoria da computação e inteligência artificial.",
+            "Jogou um papel crucial na quebra do código Enigma na Segunda Guerra Mundial.",
+            "Desenvolveu o conceito de máquina de Turing.",
+            "Contribuições fundamentais para a ciência da computação.",
+            "Perseguido devido à sua orientação sexual na época.",
+            "Reabilitado postumamente pelo reconhecimento de suas realizações.",
+            "Marcou o início da era da computação moderna.",
+            "Tragicamente, Turing enfrentou discriminação e foi condenado por sua homossexualidade.",
+            "Impacto duradouro na ciência e tecnologia da computação."
+        ]
+    }
+]

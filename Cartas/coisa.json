@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Robô Aspirador",
+        "content": [
+            "Dispositivo doméstico automatizado.",
+            "Projetado para limpar pisos automaticamente.",
+            "Sensores para evitar obstáculos.",
+            "Recarrega automaticamente quando necessário.",
+            "Programação para limpeza regular.",
+            "Opções de controle remoto ou por aplicativo.",
+            "Modelos com mapeamento inteligente.",
+            "Eficiente na remoção de poeira e detritos.",
+            "Facilita a manutenção da limpeza diária.",
+            "Popular para economizar tempo e esforço."
+        ]
+    },
+    {
+        "name": "Impressora 3D",
+        "content": [
+            "Tecnologia de fabricação aditiva.",
+            "Cria objetos tridimensionais camada por camada.",
+            "Utiliza diversos materiais, incluindo plástico e metal.",
+            "Ampla gama de aplicações, desde prototipagem até produção.",
+            "Criação de peças personalizadas e complexas.",
+            "Comunidades online compartilham modelos de impressão.",
+            "Usada em setores como medicina, design e manufatura.",
+            "Desenvolvimento contínuo de novos materiais e técnicas.",
+            "Impressoras acessíveis para uso doméstico.",
+            "Impacto potencial na produção industrial."
+        ]
+    },
+    {
+        "name": "Drone",
+        "content": [
+            "Aeronave não tripulada controlada remotamente.",
+            "Ampla variedade de tamanhos e finalidades.",
+            "Utilizado em fotografia e videografia aérea.",
+            "Aplicações em mapeamento e monitoramento.",
+            "Modelos de entretenimento e competições.",
+            "Alguns equipados com câmeras de alta resolução.",
+            "Uso na agricultura para monitoramento de culturas.",
+            "Questões legais relacionadas à privacidade e regulamentação.",
+            "Desenvolvimento rápido de tecnologia e recursos.",
+            "Integração com tecnologias como inteligência artificial."
+        ]
+    },
+    {
+        "name": "Smartwatch",
+        "content": [
+            "Relógio inteligente com recursos avançados.",
+            "Monitoramento de atividades físicas e saúde.",
+            "Conectividade com smartphones e outros dispositivos.",
+            "Recebe notificações e mensagens.",
+            "Aplicativos para gerenciamento de tarefas e saúde.",
+            "Sensores para medir batimentos cardíacos e mais.",
+            "Possibilidade de personalização de mostradores.",
+            "Bateria otimizada para uso prolongado.",
+            "Design compacto e leve para uso diário.",
+            "Expansão de funcionalidades com atualizações de software."
+        ]
+    }
+]

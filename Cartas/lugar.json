@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Machu Picchu",
+        "content": [
+            "Antiga cidade inca no Peru.",
+            "Localizada nas montanhas dos Andes.",
+            "Construída no século XV.",
+            "Patrimônio Mundial da UNESCO.",
+            "Acesso via trilha Inca ou trem.",
+            "Vistas panorâmicas deslumbrantes.",
+            "Arquitetura sofisticada e engenhosa.",
+            "Templos, terraços e praças preservados.",
+            "Mistério em torno de sua finalidade original.",
+            "Um dos destinos turísticos mais visitados."
+        ]
+    },
+    {
+        "name": "Grande Barreira de Coral",
+        "content": [
+            "Sistema de recifes no nordeste da Austrália.",
+            "Maior estrutura de coral do mundo.",
+            "Estende-se por mais de 2.300 quilômetros.",
+            "Casa de uma diversidade incrível de vida marinha.",
+            "Inclui mais de 2.900 recifes individuais.",
+            "Patrimônio Mundial da UNESCO desde 1981.",
+            "Ameaçada por mudanças climáticas.",
+            "Destino popular para mergulho e snorkeling.",
+            "Visível do espaço.",
+            "Importante para ecossistema marinho global."
+        ]
+    },
+    {
+        "name": "Monte Everest",
+        "content": [
+            "Pico mais alto do mundo.",
+            "Parte da cordilheira do Himalaia, na Ásia.",
+            "Altitude de 8.848 metros.",
+            "Desafio para alpinistas.",
+            "Primeira ascensão por Edmund Hillary e Tenzing Norgay em 1953.",
+            "Atração para alpinistas e entusiastas de aventura.",
+            "Temperaturas extremamente baixas.",
+            "Riscos de avalanches e condições climáticas adversas.",
+            "Significado cultural para os povos locais.",
+            "Experiência única para os amantes do montanhismo."
+        ]
+    },
+    {
+        "name": "Baía de Ha Long",
+        "content": [
+            "Baía no norte do Vietnã.",
+            "Conhecida por suas formações rochosas cársticas.",
+            "Mais de 1.600 ilhas e ilhotas.",
+            "Designada Patrimônio Mundial da UNESCO.",
+            "Cruzeiros populares pela baía.",
+            "Cavernas e grutas impressionantes.",
+            "Biodiversidade marinha rica.",
+            "Paisagem espetacular e pitoresca.",
+            "História e lendas locais fascinantes.",
+            "Destino turístico crescente no Vietnã."
+        ]
+    }
+]
