@@ -13,15 +13,14 @@ body {
 #card {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
-    width: 80%; /* Ajustado para ocupar 80% da largura da div */
-    max-width: 600px; /* Adicionado um limite máximo de largura */
+    width: 80%;
+    max-width: 600px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
-    background-image: linear-gradient(to bottom, rgb(64, 138, 199), rgb(1, 93, 168));
     display: table;
     margin: auto;
     padding: 20px;
-    margin-top: 20px; /* Espaço entre o título e a carta */
+    margin-top: 20px;
 }
 
 #generate-btn {
@@ -37,7 +36,7 @@ body {
     border-radius: 4%;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.356);
     transition: background-color 0.3s;
-    margin-top: 20px; /* Espaço entre a carta e o botão */
+    margin-top: 20px;
 }
 
 #generate-btn:hover {
@@ -51,7 +50,28 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Espaço entre o botão e a carta */
+    margin-top: 20px;
+}
+
+/* Adicionei classes específicas para cada tipo de carta */
+.film {
+    background-color: green;
+}
+
+.series {
+    background-color: red;
+}
+
+.thing {
+    background-color: blue;
+}
+
+.person {
+    background-color: yellow;
+}
+
+.place {
+    background-color: purple; /* Você pode alterar a cor conforme preferir */
 }
 
 .topic-title {
@@ -59,6 +79,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
+    color: white;
 }
 
 .tip {

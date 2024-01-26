@@ -96,14 +96,14 @@ function gerarNovaCarta() {
     const cardContent = document.querySelector('.card .content');
     
     cardTitle.innerHTML = `
-        <div class="topic-title" style="color: ${topic.color}">${topic.type} - ${topic.name}</div>
+        <div class="topic-title ${topic.type.toLowerCase()}" style="color: ${topic.color}">${topic.type} - ${topic.name}</div>
     `;
 
     cardContent.innerHTML = topic.content.map((tip, index) => `
         <div class="tip">${index + 1}. ${tip}</div>
     `).join('');
 
-    card.className = `card ${topic.color}`;
+    card.className = `card ${topic.color} ${topic.type.toLowerCase()}`;
 }
 
 generateBtn.addEventListener('click', gerarNovaCarta);
