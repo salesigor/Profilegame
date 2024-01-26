@@ -25,29 +25,51 @@ body {
     align-items: center;
 }
 
-.topic-title,
+.topic-title{
+    margin: 10px 0;
+}
 .topic-name {
     margin: 10px 0;
+    font-weight: bold;
+}
+
+.topic-title {
+    text-transform: uppercase;
 }
 
 .card-content {
-    text-align: center;
+    text-align: left;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
+
 .filme {
     background-image: linear-gradient(to bottom, rgb(64, 199, 75), rgb(1, 168, 37));
 }
+
 .serie {
     background-image: linear-gradient(to bottom, rgb(199, 64, 64), rgb(168, 1, 1));
 }
+
 .coisa {
     background-image: linear-gradient(to bottom, rgb(64, 138, 199), rgb(1, 93, 168));
 }
+
 .pessoa {
     background-image: linear-gradient(to bottom, rgb(243, 240, 61), rgb(236, 202, 7));
 }
+
 .lugar {
     background-image: linear-gradient(to bottom, rgb(199, 64, 120), rgb(168, 1, 126));
 }
+
 .musica {
     background-image: linear-gradient(to bottom, rgb(134, 64, 199), rgb(115, 1, 168));
+}
+
+.tip {
+    color: black;
+    font-size: 12pt;
+    margin: 5px 0;
 }
