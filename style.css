@@ -1,8 +1,15 @@
 body {
-    display: flex;
+    display: table;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px; /* Add some top margin for better spacing */
+    margin-top: 50px; 
+    background-image: linear-gradient(to bottom, rgb(27, 30, 32), rgb(77, 81, 85));
+    color: rgb(65, 55, 3);
+    #botoes {
+        align-items: center;
+        margin: auto;
+        display: flex; /* Utilizamos flexbox para alinhar as divs lado a lado */
+    }
 }
 
 .card-container {
