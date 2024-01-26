@@ -1,5 +1,7 @@
 const generateBtn = document.getElementById('generate-btn');
 const card = document.getElementById('card');
+const cardTitle = document.querySelector('.card .card-header .topic-title');
+const cardContent = document.querySelector('.card .card-content');
 
 function gerarNovaCarta() {
     const topics = [
