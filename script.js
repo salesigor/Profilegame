@@ -1,7 +1,7 @@
-const cardContainer = document.getElementById('card-container');
 const generateBtn = document.getElementById('generate-btn');
+const card = document.getElementById('card');
 
-generateBtn.addEventListener('click', () => {
+function gerarNovaCarta() {
     const topics = [
         {
             name: 'FILME',
@@ -31,7 +31,6 @@ generateBtn.addEventListener('click', () => {
     ];
 
     const topic = topics[Math.floor(Math.random() * topics.length)];
-    const card = document.getElementById('card');
     
     card.innerHTML = `
         <div class="topic">${topic.name}</div>
@@ -39,7 +38,9 @@ generateBtn.addEventListener('click', () => {
     `;
 
     card.className = `card ${topic.color}`;
-});
+}
 
-// Generate a card on page load
-generateBtn.click();
+generateBtn.addEventListener('click', gerarNovaCarta);
+
+// Chamada inicial para gerar uma carta quando a página é carregada
+gerarNovaCarta();
