@@ -2,6 +2,7 @@ body {
     font: normal 15pt Arial;
     background-image: linear-gradient(to left, rgb(25, 25, 26), rgb(51, 51, 51));
     color: rgb(65, 55, 3);
+    margin: 0; /* Remover margens padrão do body */
 }
 
 #card-container {
@@ -11,7 +12,7 @@ body {
 
 .card {
     width: 300px;
-    height: 300px; /* Ajuste a altura conforme necessário */
+    height: 300px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -29,7 +30,7 @@ body {
 
 .topic-title,
 .topic-name {
-    margin: 0; /* Remover margem padrão */
+    margin: 0;
 }
 
 .topic-title {
@@ -37,12 +38,13 @@ body {
 }
 
 .topic-name {
-    margin-top: 5px; /* Adicione margem entre o tipo e o nome */
+    margin-top: 5px;
 }
 
 .card-content {
-    margin-top: 20px; /* Adicione margem acima do conteúdo */
+    margin-top: 20px;
     text-align: center;
+    color: black; /* Adicionado para garantir o texto preto */
 }
 
 .film {
@@ -63,4 +65,8 @@ body {
 
 .place {
     background-image: linear-gradient(to bottom, rgb(199, 64, 120), rgb(168, 1, 126));
+}
+
+.music {
+    background-image: linear-gradient(to bottom, rgb(255, 242, 0), rgb(255, 153, 0));
 }
