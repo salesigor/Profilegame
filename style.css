@@ -2,6 +2,8 @@ body {
     font: normal 15pt Arial;
     background-color: #282828;
     color: white;
+    margin: 0;
+    overflow: hidden; /* Impede rolagem na tela inteira */
 }
 
 .card-container {
@@ -17,6 +19,8 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 20px auto;
+    border: 5px solid; /* Adiciona borda à div card */
+    overflow: hidden; /* Impede que o conteúdo ultrapasse a div */
 }
 
 .card-header {
@@ -25,9 +29,7 @@ body {
     align-items: center;
 }
 
-.topic-title{
-    margin: 10px 0;
-}
+.topic-title,
 .topic-name {
     margin: 10px 0;
     font-weight: bold;
@@ -42,30 +44,38 @@ body {
     background-color: white;
     padding: 10px;
     border-radius: 5px;
+    overflow-y: auto; /* Adiciona barra de rolagem vertical se o conteúdo ultrapassar */
+    max-height: 300px; /* Define a altura máxima da div de conteúdo */
 }
 
 .filme {
-    background-image: linear-gradient(to bottom, rgb(64, 199, 75), rgb(1, 168, 37));
+    background-color: rgb(64, 199, 75);
+    border-color: rgb(64, 199, 75); /* Adiciona borda da mesma cor que o fundo */
 }
 
 .serie {
-    background-image: linear-gradient(to bottom, rgb(199, 64, 64), rgb(168, 1, 1));
+    background-color: rgb(168, 1, 1);
+    border-color: rgb(168, 1, 1);
 }
 
 .coisa {
-    background-image: linear-gradient(to bottom, rgb(64, 138, 199), rgb(1, 93, 168));
+    background-color: rgb(1, 93, 168);
+    border-color: rgb(1, 93, 168);
 }
 
 .pessoa {
-    background-image: linear-gradient(to bottom, rgb(243, 240, 61), rgb(236, 202, 7));
+    background-color: rgb(241, 200, 17);
+    border-color: rgb(241, 200, 17);
 }
 
 .lugar {
-    background-image: linear-gradient(to bottom, rgb(199, 64, 120), rgb(168, 1, 126));
+    background-color: rgb(248, 45, 170);
+    border-color: rgb(248, 45, 170);
 }
 
 .musica {
-    background-image: linear-gradient(to bottom, rgb(134, 64, 199), rgb(115, 1, 168));
+    background-color: rgb(115, 1, 168);
+    border-color: rgb(115, 1, 168);
 }
 
 .tip {
