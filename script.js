@@ -4,8 +4,16 @@ const nomeElement = document.getElementById('nome');
 const conteudoElement = document.getElementById('conteudo');
 
 async function fetchCartas(tipo) {
-    const response = await fetch(`Cartas/${tipo.toLowerCase()}.json`);
-    return response.json();
+    try {
+        const response = await fetch(`Cartas/${tipo.toLowerCase()}.json`);
+        if (!response.ok) {
+            throw new Error('Erro ao carregar dados.');
+        }
+        return response.json();
+    } catch (error) {
+        console.error(error);
+        return { name: 'Erro', content: ['Falha ao carregar dados.'] };
+    }
 }
 
 async function gerarNovaCarta() {
