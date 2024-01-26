@@ -4,38 +4,104 @@ const card = document.getElementById('card');
 function gerarNovaCarta() {
     const topics = [
         {
-            name: 'FILME',
+            type: 'FILME',
             color: 'green',
-            content: 'Sou uma série de filmes de fantasia. Meus personagens vin de uma região do Golfo do México.'
+            name: 'Piratas do Caribe',
+            content: [
+                'Tem Johnny Depp como protagonista.',
+                'Fala sobre piratas e tesouros.',
+                'O personagem principal é Jack Sparrow.',
+                'Há uma maldição envolvendo o ouro.',
+                'A trilha sonora é marcante.',
+                'Possui várias sequências.',
+                'O mar é um cenário frequente.',
+                'Lançado no início dos anos 2000.',
+                'É baseado em uma atração da Disney.',
+                'Dirigido por Gore Verbinski.'
+            ]
         },
         {
-            name: 'COISA',
-            color: 'blue',
-            content: 'Piratas do Caribe 2 tenho asas. Sou muito rápido. Minhas histórias se passam entre 1650 e 1730.'
-        },
-        {
-            name: 'SÉRIE',
+            type: 'SERIE',
             color: 'red',
-            content: 'Sou uma sitcom da década de 2000. Conto a história de uma família desajustada. O melhor amigo de Gregory Weiger é meu pai.'
+            name: 'Stranger Things',
+            content: [
+                'Passa-se na década de 80.',
+                'Envolvimento de ficção científica.',
+                'A cidade é Hawkins.',
+                'Há personagens com habilidades especiais.',
+                'Uma dimensão alternativa é central na trama.',
+                'Um grupo de crianças é protagonista.',
+                'O laboratório é um local importante.',
+                'Monstros conhecidos como Demogorgon.',
+                'A amizade é um tema chave.',
+                'Criação dos irmãos Duffer.'
+            ]
         },
         {
-            name: 'PESSOA',
+            type: 'COISA',
+            color: 'blue',
+            name: 'Computador',
+            content: [
+                'É uma máquina eletrônica.',
+                'Processa dados rapidamente.',
+                'Possui uma unidade de armazenamento.',
+                'Permite acesso à internet.',
+                'Utiliza um sistema operacional.',
+                'Pode ser usado para jogos.',
+                'É essencial no trabalho atual.',
+                'Existem diferentes marcas e modelos.',
+                'Tem periféricos como teclado e mouse.',
+                'Desenvolvido ao longo da história.'
+            ]
+        },
+        {
+            type: 'PESSOA',
             color: 'yellow',
-            content: 'Sou uma garota tímida. Tive pouca vida social e desconfio das pessoas. Nasci em um laboratório. Sou muito leal aos meus amigos.'
+            name: 'Albert Einstein',
+            content: [
+                'Famoso físico alemão.',
+                'Autor da Teoria da Relatividade.',
+                'Nasceu em 1879 e morreu em 1955.',
+                'Ganhou o Prêmio Nobel de Física em 1921.',
+                'Contribuiu para o desenvolvimento da bomba atômica.',
+                'Era conhecido por sua mente brilhante e personalidade excêntrica.',
+                'Trabalhou na Universidade de Princeton.',
+                'Era pacifista e ativista político.',
+                'Imigrante judeu durante a Segunda Guerra Mundial.',
+                'Teve importantes contribuições para a física teórica.'
+            ]
         },
         {
-            name: 'MÚSICA',
+            type: 'LUGAR',
             color: 'purple',
-            content: 'A música é sobre um lugar onde as pessoas vão se divertir. Tem um ritmo acelerado e é muito popular nas festas.'
+            name: 'Paris',
+            content: [
+                'Capital da França.',
+                'Conhecida como "Cidade Luz".',
+                'Famosa pela Torre Eiffel.',
+                'O rio Sena atravessa a cidade.',
+                'Centro de moda e cultura.',
+                'Possui vários museus renomados.',
+                'Lar da Catedral de Notre-Dame.',
+                'Gastronomia conhecida mundialmente.',
+                'Bairro de Montmartre é famoso por sua arte.',
+                'Importante centro histórico e político.'
+            ]
         },
+        // Adicione mais objetos para outros tipos de cartas conforme necessário.
     ];
 
     const topic = topics[Math.floor(Math.random() * topics.length)];
+    const cardTitle = document.querySelector('.card .topic');
+    const cardContent = document.querySelector('.card .content');
     
-    card.innerHTML = `
-        <div class="topic">${topic.name}</div>
-        <div class="content">${topic.content}</div>
+    cardTitle.innerHTML = `
+        <div class="topic-title" style="color: ${topic.color}">${topic.type} - ${topic.name}</div>
     `;
+
+    cardContent.innerHTML = topic.content.map((tip, index) => `
+        <div class="tip">${index + 1}. ${tip}</div>
+    `).join('');
 
     card.className = `card ${topic.color}`;
 }

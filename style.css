@@ -7,19 +7,21 @@ body {
 #card-container {
     text-align: center;
     color: white;
-    margin-top: 20px; /* Adicionado para espaço entre o título e a carta */
+    margin-top: 20px;
 }
 
 #card {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    width: 300px; /* Reduzido o tamanho para se adequar melhor ao conteúdo */
-    height: 200px;
-    border-radius: 5px;
+    text-align: left;
+    width: 80%; /* Ajustado para ocupar 80% da largura da div */
+    max-width: 600px; /* Adicionado um limite máximo de largura */
+    border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
     background-image: linear-gradient(to bottom, rgb(64, 138, 199), rgb(1, 93, 168));
     display: table;
     margin: auto;
+    padding: 20px;
+    margin-top: 20px; /* Espaço entre o título e a carta */
 }
 
 #generate-btn {
@@ -35,7 +37,7 @@ body {
     border-radius: 4%;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.356);
     transition: background-color 0.3s;
-    margin-top: 10px; /* Adicionado para espaço entre a carta e o botão */
+    margin-top: 20px; /* Espaço entre a carta e o botão */
 }
 
 #generate-btn:hover {
@@ -43,25 +45,24 @@ body {
 }
 
 .card {
-    width: 100%; /* Ajustado para ocupar 100% da largura da div */
-    height: 100%;
-    border-radius: 5px;
+    width: 100%;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px; /* Espaço entre o botão e a carta */
 }
 
-.topic {
-    font-size: 18px;
+.topic-title {
+    font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
-    color: white;
 }
 
-.content {
+.tip {
     font-size: 14px;
-    text-align: center;
+    margin-bottom: 5px;
     color: white;
 }
