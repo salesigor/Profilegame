@@ -20,6 +20,28 @@ body {
     margin: auto;
     display: flex; /* Utilizamos flexbox para alinhar as divs lado a lado */
 }
+#generate-btn {
+    display: flex; /* Alinhar elementos lado a lado */
+    align-items: center; /* Centralizar verticalmente os elementos */
+    gap: 2px; /* Espaçamento entre o ícone e o texto */
+    cursor: pointer; /* Mostrar cursor de mão para indicar interatividade */
+    padding: 10px; /* Adicionar algum espaço interno para melhorar a aparência */
+    background-color: rgb(19, 66, 33);
+    color: whitesmoke;
+    border-color: whitesmoke;
+    border: 10px;
+    width: fit-content; /* Largura ajustada ao conteúdo */
+    border-radius: 4%;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.356);
+    transition: background-color 0.3s; /* Adiciona uma transição suave */
+    border: 10px;
+    width: 180px;
+    border-radius: 5%;
+    margin-right: 10px; /* Espaçamento entre as divs */
+}
+#generate-btn:hover {
+    background-color: rgb(20, 150, 60); /* Cor mais escura no hover */
+}
 .card-container {
     text-align: center; /* Center the card */
 }
@@ -57,16 +79,4 @@ body {
 .content {
     font-size: 14px;
     text-align: center;
-}
-.generate-btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.generate-btn:hover {
-    background-color: #3e8e41;
 }
