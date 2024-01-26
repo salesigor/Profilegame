@@ -55,23 +55,23 @@ body {
 
 /* Adicionei classes específicas para cada tipo de carta */
 .film {
-    background-color: green;
+    background-image: linear-gradient(to bottom, rgb(64, 199, 75), rgb(1, 168, 37));
 }
 
 .series {
-    background-color: red;
+    background-image: linear-gradient(to bottom, rgb(199, 64, 64), rgb(168, 1, 1));
 }
 
 .thing {
-    background-color: blue;
+    background-image: linear-gradient(to bottom, rgb(64, 138, 199), rgb(1, 93, 168));
 }
 
 .person {
-    background-color: yellow;
+    background-image: linear-gradient(to bottom, rgb(243, 240, 61), rgb(236, 202, 7));
 }
 
 .place {
-    background-color: purple; /* Você pode alterar a cor conforme preferir */
+    background-image: linear-gradient(to bottom, rgb(199, 64, 120), rgb(168, 1, 126));
 }
 
 .topic-title {
