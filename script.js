@@ -93,13 +93,13 @@ function gerarNovaCarta() {
         // Adicione mais objetos para outros tipos de cartas conforme necessário.
     ];
 
-    const topic = topics[Math.floor(Math.random() * topics.length)];
+    cconst topic = topics[Math.floor(Math.random() * topics.length)];
 
     cardTitle.innerHTML = `
         <div class="topic-title ${topic.type.toLowerCase()}">${topic.type}</div>
     `;
 
-    cardName.innerHTML = `
+    cardTitle.innerHTML = `
         <div class="topic-name" style="color: ${topic.color}">${topic.name}</div>
     `;
 
