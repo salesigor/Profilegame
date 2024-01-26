@@ -46,21 +46,21 @@ body {
 }
 
 .film {
-    background-image: linear-gradient(to bottom, rgb(1, 168, 37), rgb(64, 199, 75));
+    background-image: linear-gradient(to bottom, rgb(64, 199, 75), rgb(1, 168, 37));
 }
 
 .series {
-    background-image: linear-gradient(to bottom, rgb(168, 1, 1), rgb(199, 64, 64));
+    background-image: linear-gradient(to bottom, rgb(199, 64, 64), rgb(168, 1, 1));
 }
 
 .thing {
-    background-image: linear-gradient(to bottom, rgb(1, 93, 168), rgb(64, 138, 199));
+    background-image: linear-gradient(to bottom, rgb(64, 138, 199), rgb(1, 93, 168));
 }
 
 .person {
-    background-image: linear-gradient(to bottom, rgb(236, 202, 7), rgb(243, 240, 61));
+    background-image: linear-gradient(to bottom, rgb(243, 240, 61), rgb(236, 202, 7));
 }
 
 .place {
-    background-image: linear-gradient(to bottom, rgb(168, 1, 126), rgb(199, 64, 120));
+    background-image: linear-gradient(to bottom, rgb(199, 64, 120), rgb(168, 1, 126));
 }
