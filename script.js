@@ -92,9 +92,7 @@ function gerarNovaCarta() {
     ];
 
     const topic = topics[Math.floor(Math.random() * topics.length)];
-    const cardTitle = document.querySelector('.card .topic');
-    const cardContent = document.querySelector('.card .content');
-    
+
     cardTitle.innerHTML = `
         <div class="topic-title ${topic.type.toLowerCase()}" style="color: ${topic.color}">${topic.type} - ${topic.name}</div>
     `;
